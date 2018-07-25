@@ -1,0 +1,68 @@
+/* 曹鹏威2017-12-12 */
+.container {
+  /* height: 100%; */
+  /* display: flex;   */
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box; 
+  font-family: "Microsoft YaHei"!important;
+}
+.txtcolor{
+  color:#CDAB86;
+}
+.titlecolor{
+  color:#444444;
+}
+.contentcolor{
+  color:#666666;
+}
+.bold{
+ font-weight: bold
+}
+.size{
+  font-size:30rpx;
+}
+.solid{
+  border:1px solid black;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.float_none{
+  overflow: hidden;
+}
+.center{
+  text-align: center;
+}
+.winbgcolor{
+  background-color:#F4F4F4;
+}
+.divbgcolor{
+  background-color: white;
+}
+.butbgcolor{
+  background-color: #CDAB86;
+}
+/* 加载样式 */
+.loading{  
+  padding: 10rpx;  
+  text-align: center;   
+  vertical-align: middle;
+  color:#666666;
+  font-size:28rpx;
+}  
+.loading:before{  
+  display: inline-block;   
+  margin-right: 5rpx;  
+  vertical-align: middle;   
+  width: 40rpx;  
+  height: 40rpx;   
+  background-size: contain;   
+  animation: rotate 1s linear infinite;   
+}  
+.loading.complete:before{  
+  display: none;  
+}
